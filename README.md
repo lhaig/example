@@ -1,5 +1,5 @@
 # Example Nomad Levant Deployment
-This is an example levant Deployment that can be used as a base for creating other deployments.
+This is an example Levant Deployment that can be used as a base for creating other deployments.
 
 This is the standard `nomad init` specification that has been converted to a Levant style deployment.
 
@@ -75,5 +75,5 @@ group:
     service:
       name: "redis-cache"
       tags: ['"global", "cache"']
- 
+
  ```
